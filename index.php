@@ -146,7 +146,7 @@
 							</div>
 							<div class="work__contents">
 								<div class="work__text-container">
-									<p class="work__text">QUMAがビル１棟をリノベーションして自社で運用しているslow。B1Fはレンタルスペース、１Fはフロント兼カフェ、F2〜3は宿泊施設として運用しています。</p>
+									<p class="work__text"><?php the_field('description'); ?></p>
 								</div>
 
 								<div class="work__outline-container">
@@ -180,7 +180,7 @@
 									<?php if($area) {?>
 										<li class="work__outline-wrapper">
 											<div class="work__outline-left">改装面積</div>
-											<div class="work__outline-right"><?php echo $area ?></div>
+											<div class="work__outline-right"><?php echo $area ?>㎡</div>
 										</li>
 									<?php } ?>
 
